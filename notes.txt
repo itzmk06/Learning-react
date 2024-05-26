@@ -1,0 +1,26 @@
+jsx is very similar structure to html but with super powers 
+
+jsx just look like html but it's not html
+
+the super power is that we're not able to do any calculations or operations in html like addition
+and logical ones but here in jsx by placing the things within {} we can perfom any operations 
+
+component is nothing but a single piece which you'll repeat with different different component
+
+in any programming language you can't return more than one thing, so if you want to return 
+multiple items place them within a div and return it 
+
+code snippets
+
+function App(){
+  let values=["Manoj","Ketaki","Vaishnavi"];
+  return(
+    values.map((value,index)=>(
+      <div key={index} className="w-fit h-10 bg-zinc-300 mb-5">{value}</div>
+    ))
+  )
+}
+export default App;
+//this is called as functional component
+// no need of writing everything just type rfc
+
