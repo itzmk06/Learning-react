@@ -24,3 +24,9 @@ export default App;
 //this is called as functional component
 // no need of writing everything just type rfc
 
+1. props are used to make our components responsive
+2. suppose that you have a button and you want to use that button in multiple places
+3. instead of making it hardcoded send it's data from that parent component
+4. and then use it by child component
+
+
