@@ -28,5 +28,7 @@ export default App;
 2. suppose that you have a button and you want to use that button in multiple places
 3. instead of making it hardcoded send it's data from that parent component
 4. and then use it by child component
+5. our data will be in our main app component 
+6. and with the help of props we send those data into our component classes
 
 
