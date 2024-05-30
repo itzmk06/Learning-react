@@ -32,3 +32,8 @@ export default App;
 6. and with the help of props we send those data into our component classes
 
 
+//react styling components
+
+1. use css modules
+2. use tailwind css
+
